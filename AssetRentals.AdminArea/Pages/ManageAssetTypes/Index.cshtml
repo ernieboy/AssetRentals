@@ -5,9 +5,20 @@
 
 <h3>Asset Types Listing</h3>
 
-@foreach (var assetType in Model.AssetTypes)
-{
-    <h3>@assetType.Name</h3>
-    <h4>@assetType.Description</h4>
-}
+<table class="table table-striped table-dark table-bordered table-hover">
+    <thead>
+    <tr scope="row">
+        <th>Name</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    @foreach (var assetType in Model.AssetTypes)
+    {
+        <tr scope="row">
+            <td>@assetType.Name</td>
+            <td>@assetType.Description</td>
+        </tr>
+    }
+
+</table>
 <a href="/ManageAssetTypes/Add">Add a new one</a>

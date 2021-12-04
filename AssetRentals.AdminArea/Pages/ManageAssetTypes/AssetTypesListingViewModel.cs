@@ -1,6 +1,6 @@
 ﻿namespace AssetRentals.AdminArea.Pages.ManageAssetTypes
 {
-    public class AssetTypesListingViewModel
+    public record AssetTypesListingViewModel
     {
         public AssetTypesListingViewModel(string name, string description)
             => (Name, Description) = (name, description);

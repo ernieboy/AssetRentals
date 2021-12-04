@@ -1,0 +1,11 @@
+﻿@page
+@model AssetRentals.AdminArea.Pages.ManageAssetTypes.IndexModel
+@{
+}
+
+<h3>Asset Types Listing</h3>
+
+@foreach (var assetType in Model.AssetTypes)
+{
+    <h2>@assetType.Name</h2>
+}

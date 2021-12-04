@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssetRentals.Core", "AssetR
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssetRentals.Infrastructure.EntityFramework", "AssetRentals.Infrastructure.EntityFramework\AssetRentals.Infrastructure.EntityFramework.csproj", "{09A810F5-C305-464E-844B-EF9142C4E726}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssetRentals.WebHost", "AssetRentals.WebHost\AssetRentals.WebHost.csproj", "{9C5C1468-C2CA-4C0C-9665-FA2074F43256}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssetRentals.Web", "AssetRentals.WebHost\AssetRentals.Web.csproj", "{9C5C1468-C2CA-4C0C-9665-FA2074F43256}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetRentals.AdminArea", "AssetRentals.AdminArea\AssetRentals.AdminArea.csproj", "{6BC982B5-2BBA-47EE-A51D-709F167F1D17}"
 EndProject

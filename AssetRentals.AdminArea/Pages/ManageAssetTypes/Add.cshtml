@@ -3,11 +3,20 @@
 @{
 }
 
+<h3>Add new Asset Type</h3>
+<div style="width:50%">
 
 <form method="post">
-    <input type="text" name="name"> 
-    <input type="text" name="description"> 
-    <input type="submit">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name"  name="name"/>
+    </div>
+    <div class="form-group">
+        <label for="description">Description</label>
+        <textarea class="form-control" id="description"  name="description"rows="3"></textarea>
+    </div>
+    <input type="submit" class="btn btn-primary">
 </form>
+</div>
 
-<a href="/ManageAssetTypes/Index">Back to listing page</a>
+<p><a href="/ManageAssetTypes/Index">Back to listing page</a></p>

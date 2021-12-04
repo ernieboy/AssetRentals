@@ -5,6 +5,7 @@
 
 <h3>Asset Types Listing</h3>
 
+<div style="width:50%">
 <table class="table table-striped table-dark table-bordered table-hover">
     <thead>
     <tr scope="row">
@@ -12,13 +13,14 @@
         <th>Description</th>
     </tr>
     </thead>
-    @foreach (var assetType in Model.AssetTypes)
-    {
-        <tr scope="row">
-            <td>@assetType.Name</td>
-            <td>@assetType.Description</td>
-        </tr>
-    }
+        @foreach (var assetType in Model.AssetTypes)
+        {
+            <tr scope="row">
+                <td>@assetType.Name</td>
+                <td>@assetType.Description</td>
+            </tr>
+        }
 
 </table>
-<a href="/ManageAssetTypes/Add">Add a new one</a>
+</div>
+<p><a href="/ManageAssetTypes/Add">Add a new one</a></p>
